@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1.3-labs
-FROM python:3.10-slim-buster
+FROM arm64v8/python:3.10-slim-buster
 
 ARG EXTRAS
 
